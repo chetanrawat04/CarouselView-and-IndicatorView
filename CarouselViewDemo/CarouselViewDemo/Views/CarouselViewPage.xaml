@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage
+    x:Class="CarouselViewDemo.Views.CarouselViewPage"
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    x:Name="CarouselPage">
+    <ContentPage.Content>
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="500" />
+                <RowDefinition Height="400" />
+            </Grid.RowDefinitions>
+            <CarouselView
+                x:Name="carouselView"
+                Grid.Row="0"
+                IsScrollAnimated="True"
+                ItemsSource="{Binding Items}"
+                ItemsUpdatingScrollMode="KeepItemsInView">
+                <CarouselView.ItemTemplate>
+                    <DataTemplate>
+                        <Grid>
+                            <Image
+                                Aspect="AspectFill"
+                                BackgroundColor="{Binding BgColors}"
+                                Source="{Binding Images}" />
+                        </Grid>
+                    </DataTemplate>
+                </CarouselView.ItemTemplate>
+            </CarouselView>
+            <IndicatorView
+                Grid.Row="0"
+                Padding="0,0,0,25"
+                HorizontalOptions="Center"
+                IndicatorColor="LightGray"
+                IndicatorSize="10"
+                IndicatorView.ItemsSourceBy="carouselView"
+                SelectedIndicatorColor="Black"
+                VerticalOptions="End" />
+            <CarouselView
+                x:Name="carouselView1"
+                Grid.Row="1"
+                IsScrollAnimated="True"
+                ItemsSource="{Binding Items1}"
+                ItemsUpdatingScrollMode="KeepItemsInView"
+                PeekAreaInsets="50">
+                <CarouselView.ItemTemplate>
+                    <DataTemplate>
+                        <Grid>
+                            <Image Aspect="AspectFill" Source="{Binding Images}" />
+                        </Grid>
+                    </DataTemplate>
+                </CarouselView.ItemTemplate>
+            </CarouselView>
+            <IndicatorView
+                Grid.Row="1"
+                Padding="0,0,0,25"
+                HorizontalOptions="Center"
+                IndicatorColor="LightGray"
+                IndicatorSize="10"
+                IndicatorView.ItemsSourceBy="carouselView1"
+                SelectedIndicatorColor="Black"
+                VerticalOptions="End" />
+
+        </Grid>
+    </ContentPage.Content>
+</ContentPage>

@@ -1,0 +1,12 @@
+C:\Demo\CarouselViewDemo\CarouselViewDemo\CarouselViewDemo\bin\Debug\netstandard2.0\CarouselViewDemo.deps.json
+C:\Demo\CarouselViewDemo\CarouselViewDemo\CarouselViewDemo\bin\Debug\netstandard2.0\CarouselViewDemo.dll
+C:\Demo\CarouselViewDemo\CarouselViewDemo\CarouselViewDemo\bin\Debug\netstandard2.0\CarouselViewDemo.pdb
+C:\Demo\CarouselViewDemo\CarouselViewDemo\CarouselViewDemo\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Demo\CarouselViewDemo\CarouselViewDemo\CarouselViewDemo\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Demo\CarouselViewDemo\CarouselViewDemo\CarouselViewDemo\obj\Debug\netstandard2.0\Views\CarouselViewPage.xaml.g.cs
+C:\Demo\CarouselViewDemo\CarouselViewDemo\CarouselViewDemo\obj\Debug\netstandard2.0\CarouselViewDemo.csproj.CoreCompileInputs.cache
+C:\Demo\CarouselViewDemo\CarouselViewDemo\CarouselViewDemo\obj\Debug\netstandard2.0\CarouselViewDemo.AssemblyInfoInputs.cache
+C:\Demo\CarouselViewDemo\CarouselViewDemo\CarouselViewDemo\obj\Debug\netstandard2.0\CarouselViewDemo.AssemblyInfo.cs
+C:\Demo\CarouselViewDemo\CarouselViewDemo\CarouselViewDemo\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Demo\CarouselViewDemo\CarouselViewDemo\CarouselViewDemo\obj\Debug\netstandard2.0\CarouselViewDemo.dll
+C:\Demo\CarouselViewDemo\CarouselViewDemo\CarouselViewDemo\obj\Debug\netstandard2.0\CarouselViewDemo.pdb
